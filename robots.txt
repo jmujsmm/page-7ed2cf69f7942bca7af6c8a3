@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-f035b72c0d.jocowd.cn/sitemap.xml

@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "90474c5fe2fbf584c5eca94e",
+  "owner": "jmujsmm",
+  "repo": "page-7ed2cf69f7942bca7af6c8a3",
+  "title": "闲鱼网络",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "7ed2cf69f7942bca7af6c8a3",
+      "a": "闲鱼网络",
+      "b": "",
+      "entity": "闲鱼网络",
+      "brand": "闲鱼网络",
+      "separator": "",
+      "path": "index.html",
+      "hash": "a01c95a89a7587b776377867ae8c814b9354b2b66ed588f3411582ffef441838",
+      "content": {
+        "keyword1": "闲鱼网络",
+        "keyword2": "",
+        "primary_entity": "闲鱼网络",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "闲鱼网络，一个不催你、不套路你的网络服务。从日常看剧到团队办公，挑个合适的套餐，就能安心用。",
+          "AI_DESCRIPTION": "闲鱼网络，一个不催你、不套路你的网络服务。从日常看剧到团队办公，挑个合适的套餐，就能安心用。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n* {margin: 0;padding: 0;box-sizing: border-box}\n:root {--bg: #f4f5f7;--card-bg: #ebedf2;--purple: #7c3aed;--purple-hover: #6d28d9;--purple-soft: #c4b5fd;--text: #2d2d33;--text-muted: #6b6b76;--border: #2d2d33;--white: #ffffff}\nhtml {}\nbody {background: var(--bg);color: var(--text);font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif;line-height: 1.7;-webkit-font-smoothing: antialiased}\n.layout {display: grid;grid-template-columns: 220px 1fr;min-height: 100vh}\n\n/* 左侧竖排目录 */\nnav.sidenav {position: sticky;top: 0;height: 100vh;padding: 2.5rem 1.5rem;border-right: 2px solid var(--border);background: var(--bg);display: flex;flex-direction: column;gap: 1.5rem}\n.brand-mark {font-size: 1.1rem;font-weight: 800;letter-spacing: 0.02em;padding-bottom: 1rem;border-bottom: 2px dashed var(--border)}\n.nav-link {color: var(--text-muted);text-decoration: none;font-size: 0.95rem;font-weight: 600;transition: color 0.2s, transform 0.2s;display: inline-block}\n.nav-link:hover {color: var(--purple);transform: translateX(4px)}\n.nav-footer {margin-top: auto;font-size: 0.8rem;color: var(--text-muted)}\n\nmain {padding: 0 0 4rem 0}\n\n/* 首屏：全宽色带分层堆叠 */\n.hero {display: flex;flex-direction: column}\n.hero-band {width: 100%;padding: 2rem 4rem;display: flex;align-items: center}\n.band-1 {background: var(--purple);color: var(--white);height: 60px;font-size: 0.9rem;font-weight: 500}\n.band-2 {background: var(--text);color: var(--white);height: 80px;font-size: 0.9rem}\n.band-3 {background: var(--white);min-height: 45vh;flex-direction: column;align-items: flex-start;padding: 4rem 4rem 5rem;gap: 1.5rem}\n.band-4 {background: var(--bg);height: 30px}\n\n.hero h1 {font-size: 4.5rem;font-weight: 800;letter-spacing: -0.03em;line-height: 0.95;color: var(--text)}\n.hero-sub {font-size: 1.25rem;color: var(--text-muted);max-width: 520px}\n\n/* 区块通用 */\n.section {padding: 4rem 4rem;max-width: 900px}\n.section-title {font-size: 2rem;font-weight: 800;margin-bottom: 1rem;letter-spacing: -0.02em}\n.section-intro {color: var(--text-muted);margin-bottom: 2.5rem;font-size: 1.05rem}\n\n/* 卡片：粗描边直角 */\n.card {background: var(--card-bg);border: 2px solid var(--border);padding: 2rem;margin-bottom: 1.5rem}\n\n/* 套餐：单列大卡依次堆叠 */\n.plan-card {position: relative;overflow: hidden}\n.plan-card.featured {background: var(--white);border-color: var(--purple);border-width: 3px}\n.plan-tag {position: absolute;top: 0;right: 0;background: var(--purple);color: var(--white);padding: 0.4rem 1.2rem;font-size: 0.85rem;font-weight: 700}\n.plan-header {display: flex;justify-content: space-between;align-items: flex-end;margin-bottom: 1.5rem;border-bottom: 2px dashed var(--border);padding-bottom: 1rem}\n.plan-name {font-size: 1.8rem;font-weight: 800}\n.plan-price {font-size: 1.5rem;font-weight: 700;color: var(--purple)}\n.plan-annual {font-size: 0.9rem;color: var(--text-muted);margin-top: 0.3rem}\n.plan-features {list-style: none;display: grid;grid-template-columns: 1fr 1fr;gap: 0.8rem}\n.plan-features li {position: relative;padding-left: 1.5rem;font-size: 0.95rem}\n.plan-features li::before {content: \"+\";position: absolute;left: 0;color: var(--purple);font-weight: 800}\n\n/* FAQ: details 折叠 */\ndetails.faq-item {border: 2px solid var(--border);background: var(--card-bg);padding: 1.2rem 1.5rem;margin-bottom: 1rem;cursor: pointer}\ndetails.faq-item summary {font-weight: 700;font-size: 1.05rem;list-style: none;display: flex;justify-content: space-between;align-items: center}\ndetails.faq-item summary::after {content: \"[展开]\";color: var(--purple);font-size: 0.85rem}\ndetails.faq-item[open] summary::after {content: \"[收起]\"}\ndetails.faq-item p {margin-top: 1rem;color: var(--text-muted);font-size: 0.95rem;border-top: 1px solid var(--purple-soft);padding-top: 1rem}\n\n/* 步骤 */\n.step-list {display: grid;gap: 1.5rem;counter-reset: step}\n.step-item {display: grid;grid-template-columns: 40px 1fr;gap: 1rem;align-items: start}\n.step-item::before {counter-increment: step;content: counter(step);width: 32px;height: 32px;background: var(--purple);color: var(--white);display: flex;align-items: center;justify-content: center;font-weight: 800;font-size: 0.9rem;border: 2px solid var(--border)}\n.step-item h3 {font-size: 1.1rem;margin-bottom: 0.3rem}\n.step-item p {font-size: 0.95rem;color: var(--text-muted)}\n\n/* 客户端 */\n.client-grid {display: grid;grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));gap: 1.5rem}\n.client-card {border: 2px solid var(--border);background: var(--white);padding: 1.5rem;text-align: center}\n.client-card h3 {font-size: 1.1rem;margin-bottom: 0.5rem}\n.client-card p {font-size: 0.9rem;color: var(--text-muted);margin-bottom: 1rem}\n.btn {display: inline-block;padding: 0.5rem 1.2rem;background: var(--purple);color: var(--white);text-decoration: none;font-weight: 700;font-size: 0.9rem;border: 2px solid var(--border)}\n.btn:hover {background: var(--purple-hover)}\n\n/* 移动端适配 */\n@media (max-width: 900px) {.layout { grid-template-columns: 1fr;}\n  nav.sidenav {\n    position: relative;height: auto;flex-direction: row;flex-wrap: wrap;gap: 1rem;padding: 1.5rem;border-right: none;border-bottom: 2px solid var(--border);}\n  .nav-footer { display: none;}\n  .hero-band { padding: 1.5rem;}\n  .band-1, .band-2 { height: auto;padding: 1rem 1.5rem;}\n  .band-3 { padding: 2rem 1.5rem 3rem;}\n  .hero h1 { font-size: 2.5rem;}\n  .hero-sub { font-size: 1rem;}\n  .section { padding: 2rem 1.5rem;}\n  .plan-features { grid-template-columns: 1fr;}\n  .plan-header { flex-direction: column;align-items: flex-start;gap: 0.5rem;}}\n</style><div class=\"layout\">\n  <nav class=\"sidenav\">\n    <div class=\"brand-mark\">闲鱼网络</div>\n    <a href=\"#hero\" class=\"nav-link\">首页</a>\n    <a href=\"#features\" class=\"nav-link\">特色</a>\n    <a href=\"#plans\" class=\"nav-link\">套餐价格</a>\n    <a href=\"#clients\" class=\"nav-link\">客户端</a>\n    <a href=\"#guide\" class=\"nav-link\">使用指南</a>\n    <a href=\"#faq\" class=\"nav-link\">常见问题</a>\n    <div class=\"nav-footer\">慢慢来，比较快。</div>\n  </nav>\n  \n  <main>\n    <header class=\"hero\" id=\"hero\">\n      <div class=\"hero-band band-1\">闲鱼网络 · 致力于让上网这件事变得简单</div>\n      <div class=\"hero-band band-2\">不贩卖焦虑，不制造套路，只提供稳定的连接</div>\n      <div class=\"hero-band band-3\">\n        <h1>闲鱼网络</h1>\n        <p class=\"hero-sub\">我们叫闲鱼网络。平时大家忙忙碌碌，上网的时候就想图个省心。这里没有花里胡哨的宣传，挑个顺眼的套餐，连上就能用，坏了就找客服，就这么简单。</p>\n      </div>\n      <div class=\"hero-band band-4\"></div>\n    </header>\n\n    <section class=\"section\" id=\"features\">\n      <h2 class=\"section-title\">我们能做什么</h2>\n      <p class=\"section-intro\">说点实在的，不整虚的。</p>\n      <div class=\"card\">\n        <h3>顺畅看剧</h3>\n        <p>不管是追老剧还是看新番，选个好节点，画质拉满，不用盯着缓冲圈圈发呆。周末窝在沙发上，舒舒服服看个电影。</p>\n      </div>\n      <div class=\"card\">\n        <h3>游戏不卡</h3>\n        <p>专线优化路由，海外游戏联机延迟降下来。不用熬夜跟延迟斗智斗勇，该赢的比赛稳稳拿下。</p>\n      </div>\n      <div class=\"card\">\n        <h3>办公得力</h3>\n        <p>出差在外查资料、开视频会议，连接稳稳当当。团队版还能大家一起用，不用一个个开账号。</p>\n      </div>\n    </section>\n\n    <section class=\"section\" id=\"plans\">\n      <h2 class=\"section-title\">挑个套餐</h2>\n      <p class=\"section-intro\">不用纠结，按需选就行，用不完也不心疼。</p>\n      \n      <div class=\"card plan-card\">\n        <div class=\"plan-header\">\n          <div class=\"plan-name\">基础版</div>\n          <div>\n            <div class=\"plan-price\">¥15/月</div>\n            <div class=\"plan-annual\">按年付仅需 ¥150/年</div>\n          </div>\n        </div>\n        <ul class=\"plan-features\">\n          <li>每月 100GB 极速流量</li>\n          <li>支持 3 台设备同时在线</li>\n          <li>解锁基础流媒体</li>\n          <li>普通线路节点池</li>\n        </ul>\n      </div>\n\n      <div class=\"card plan-card featured\">\n        <div class=\"plan-tag\">朋友推荐</div>\n        <div class=\"plan-header\">\n          <div class=\"plan-name\">旗舰版</div>\n          <div>\n            <div class=\"plan-price\">¥35/月</div>\n            <div class=\"plan-annual\">按年付仅需 ¥350/年</div>\n          </div>\n        </div>\n        <ul class=\"plan-features\">\n          <li>每月 300GB 极速流量</li>\n          <li>支持 5 台设备同时在线</li>\n          <li>全节点原生流媒体解锁</li>\n          <li>IPLC 专线游戏加速优化</li>\n          <li>7x24 优先工单支持</li>\n        </ul>\n      </div>\n\n      <div class=\"card plan-card\">\n        <div class=\"plan-header\">\n          <div class=\"plan-name\">团队版</div>\n          <div>\n            <div class=\"plan-price\">¥85/月</div>\n            <div class=\"plan-annual\">按年付仅需 ¥850/年</div>\n          </div>\n        </div>\n        <ul class=\"plan-features\">\n          <li>每月 1000GB 极速流量</li>\n          <li>支持 20 台设备同时在线</li>\n          <li>VIP 专属高带宽节点</li>\n          <li>支持企业定制路由</li>\n          <li>专属客户经理服务</li>\n        </ul>\n      </div>\n    </section>\n\n    <section class=\"section\" id=\"clients\">\n      <h2 class=\"section-title\">在哪用</h2>\n      <p class=\"section-intro\">手机、电脑都能装，随时随地连上。</p>\n      <div class=\"client-grid\">\n        <div class=\"client-card\">\n          <h3>Windows</h3>\n          <p>Win10 及以上系统适用</p>\n          <a href=\"#\" class=\"btn\">获取客户端</a>\n        </div>\n        <div class=\"client-card\">\n          <h3>macOS</h3>\n          <p>支持 Intel 与 Apple 芯片</p>\n          <a href=\"#\" class=\"btn\">获取客户端</a>\n        </div>\n        <div class=\"client-card\">\n          <h3>Android</h3>\n          <p>Android 7.0 及以上适用</p>\n          <a href=\"#\" class=\"btn\">获取客户端</a>\n        </div>\n        <div class=\"client-card\">\n          <h3>iOS</h3>\n          <p>iPhone、iPad 均可使用</p>\n          <a href=\"#\" class=\"btn\">获取客户端</a>\n        </div>\n      </div>\n    </section>\n\n    <section class=\"section\" id=\"guide\">\n      <h2 class=\"section-title\">怎么上手</h2>\n      <p class=\"section-intro\">三步搞定，比泡面还快。</p>\n      <div class=\"step-list\">\n        <div class=\"step-item\">\n          <div>\n            <h3>选个套餐</h3>\n            <p>看看上面的三个套餐，哪个合适选哪个，付款后账号马上发到邮箱。</p>\n          </div>\n        </div>\n        <div class=\"step-item\">\n          <div>\n            <h3>下载客户端</h3>\n            <p>根据设备下载对应的客户端，双击安装，跟装普通软件一样。</p>\n          </div>\n        </div>\n        <div class=\"step-item\">\n          <div>\n            <h3>导入连接</h3>\n            <p>打开软件，输入账号或导入订阅链接，点连接，绿灯亮了就能用了。</p>\n          </div>\n        </div>\n      </div>\n    </section>\n\n    <section class=\"section\" id=\"faq\">\n      <h2 class=\"section-title\">你可能想问的</h2>\n      <p class=\"section-intro\">先看看这里，说不定答案已经有了。</p>\n      \n      <details class=\"faq-item\">\n        <summary>新手上路，到底该怎么选套餐？</summary>\n        <p>平时就刷刷网页、偶尔看个剧，基础版妥妥的。要是爱看高清流媒体、打打游戏，旗舰版体验会好很多。团队版顾名思义，适合几个人一起用，比如宿舍或者小工作室。</p>\n      </details>\n\n      <details class=\"faq-item\">\n        <summary>流量用超了会怎样？</summary>\n        <p>流量用完后，连接会自动暂停，不会偷偷扣费。你可以等下个月自动刷新，或者临时加个流量包，怎么划算怎么来。</p>\n      </details>\n\n      <details class=\"faq-item\">\n        <summary>换了手机还能用吗？</summary>\n        <p>当然可以。账号跟设备绑定的是数量，不是型号。只要同时在线的设备数没超上限，换新手机、换电脑都能直接登录用。</p>\n      </details>\n\n      <details class=\"faq-item\">\n        <summary>用了一段时间觉得不行，能退吗？</summary>\n        <p>如果你是新手，购买 24 小时内没用过太多流量（比如不超过 1GB），找客服说明情况，可以全额退款。老用户因为已经产生成本，就不支持退款了，还请理解。</p>\n      </details>\n\n      <details class=\"faq-item\">\n        <summary>晚上高峰期会不会很卡？</summary>\n        <p>我们尽量保证高峰期的带宽，但网络情况受多种因素影响。旗舰版和团队版用的是专属高带宽节点，高峰期体验会更稳。基础版可能会受点影响，建议错峰或者升级套餐。</p>\n      </details>\n    </section>\n  </main>\n</div>",
+          "hash": "e623d16d80e5db7c04c7e820bbea03c3d699daa2f2dd5a649d53db20d9eeedee",
+          "seo": {
+            "title": "闲鱼网络 — 慢慢来，比较快",
+            "keywords": "闲鱼网络,网络加速,流媒体解锁,IPLC专线,多设备在线",
+            "description": "闲鱼网络，一个不催你、不套路你的网络服务。从日常看剧到团队办公，挑个合适的套餐，就能安心用。"
+          },
+          "provider": "grok",
+          "model": "glm-5.3",
+          "design": {
+            "no": "4783",
+            "hero": "8 全宽色带分层堆叠",
+            "palette": "4 浅灰配电光紫",
+            "nav": "2 左侧竖排目录",
+            "card": "2 粗描边直角",
+            "plans_view": "4 单列大卡依次堆叠",
+            "faq_view": "4 details 折叠",
+            "tone": "2 亲切的朋友式口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "jocowd.cn",
+    "host": "p-f035b72c0d.jocowd.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "a491395b12ac8239806e3243f135ead593fe8dc2b9b93317994775a7fff69749",
+    "sitemap.xml": "a1bbbc06be43eece8965f46758162390c5f5757bf9ef3e724dbddb8b21255bf8",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "4f29308196e483675c4c26828288e14008ac55421b1bbe2e166f21676a02b7b9",
+    "robots.txt": "fd4c839b2bdfd388fd310e355b028a33f4ba344697aaf429f262b4494f728865",
+    "01577a6524094a6e8a7ff299df630d7b.txt": "cb88fed121b27ec7558285fcef0f52e70bf3ed3cea041ec3262fb498d67fa1cb"
+  },
+  "revision": "b3415994052efbc70ea6ef6e8de49f7278df732ddeca922a9fc9a07d4db4a6ef"
+}
